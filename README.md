@@ -12,7 +12,7 @@ To install without compiling from source, download the [.midiMixerPlugin from th
 # Setting up this plugin
 1. Log in to [Spotify developers](https://developer.spotify.com/) page and go to the [dashboard](https://developer.spotify.com/dashboard/)
 2. Create an app. Set the name to something like `Midi Mixer Spotify Plugin`. The description can be anything
-3. Add a redirect URI with the address `http://localhost:22025/auth/spotify/callback` and click `Add`
+3. Add a redirect URI with the address `http://127.0.0.1:22025/auth/spotify/callback` and click `Add`
 4. Enable the `Web API` and `Web Playback SDK` 
 5. Click `Settings` on the newly created app
 6. Copy the `Client ID` to the plugin's `Settings` page
